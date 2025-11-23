@@ -1,0 +1,19 @@
+{% extends "base.html"%}
+{% block title %}Home | My Portfolio{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h1>I'm Samarth</h1>
+        <p class="lead">
+            BCA student & aspiring Full-Stack Developer with interest in AI/ML.
+        </p>
+        <P>
+            I build mini-projects using HTML, CSS, and JavaScript and I’m currently
+            learning Python & Flask for backend development.
+        </P>
+        <a herf="{{url_for('projects')}}" class="btn btn-primary">
+            view my projects
+        </a>
+    </div>
+</div>
+{% endblock %}
